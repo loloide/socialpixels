@@ -45,7 +45,10 @@
     "@feathersjs/transport-commons": "^4.5.11",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
+    "feathers-memory": "^4.1.0",
     "helmet": "^4.6.0",
+    "p5": "^1.4.0",
+    "p5-manager": "^1.4.0",
     "serve-favicon": "^2.5.0",
     "winston": "^3.3.3"
   },
