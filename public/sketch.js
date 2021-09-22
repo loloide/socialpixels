@@ -4,13 +4,15 @@
 
 // Keep track of our socket connection
 var socket;
+//const io = require("socket.io-client");
+socket = io.connect('http://localhost:3000');
 
 function setup() {
   createCanvas(400, 400);
   background(0);
   // Start a socket connection to the server
   // Some day we would run this server somewhere else
-  socket = io.connect('http://localhost:8090');
+  
   // We make a named event called 'mouse' and write an
   // anonymous callback function
   socket.on('mouse',
@@ -18,9 +20,9 @@ function setup() {
     function(data) {
       console.log("Got: " + data.x + " " + data.y);
       // Draw a blue circle
-      fill(0,0,255);
+      fill(255,0,80);
       noStroke();
-      ellipse(data.x, data.y, 20, 20);
+      ellipse(data.x, data.y, 10, 10 );
     }
   );
 }
@@ -33,7 +35,7 @@ function mouseDragged() {
   // Draw some white circles
   fill(255);
   noStroke();
-  ellipse(mouseX,mouseY,20,20);
+  ellipse(mouseX,mouseY,10,10);
   // Send the mouse coordinates
   sendmouse(mouseX,mouseY);
 }
