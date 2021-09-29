@@ -1,0 +1,31 @@
+body {
+    padding-top: 0;
+    align-items: center;
+    text-align: center;  
+} 
+.pad-10-perc {
+    padding: 10%;
+}
+#primary_color{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#primary_color::-webkit-color-swatch-wrapper {
+    padding: 0; 
+}
+#primary_color::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+#socialpixelsTitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+html {
+    background-color: #e4e4e4;
+}
