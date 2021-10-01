@@ -6,6 +6,8 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    color: gray;
+    font-family: 'Roboto Condensed';
   }
 body {
     background-color: #e4e4e4;
