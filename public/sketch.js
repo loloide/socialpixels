@@ -18,7 +18,7 @@ function setup() {
     }
   );
 }
-
+// draw
 function mousePressed() {
   fill(hex);
   noStroke();
@@ -38,31 +38,31 @@ function sendmouse(xpos, ypos) {
 
   socket.emit('mouse',data);
 }
+
+
 // colour picker
-
 var colorWell;
-        var defaultColor = "000000";
-        var hex = "FFFFFF"
-        window.addEventListener("load", startup, false);
+var defaultColor = "000000";
+var hex = "FFFFFF"
+window.addEventListener("load", startup, false);
 
-        function startup() {
-          colorWell = document.querySelector("#colorWell");
-          colorWell.value = defaultColor;
-          colorWell.addEventListener("input", updateFirst, false);
-          colorWell.addEventListener("change", updateAll, false);
-          colorWell.select();
-        }
+function startup() {
+  colorWell = document.querySelector("#colorWell");
+  colorWell.value = defaultColor;
+  colorWell.addEventListener("input", updateFirst, false);
+  colorWell.select();
+}
 
-        function updateFirst(event) {
-          var p = document.querySelector("p");
-          hex = event.target.value;
-          console.log(hex)
-          if (p) {
-            p.style.color = event.target.value;
-            }
-          }
-        function updateAll(event) {
-          document.querySelectorAll("p").forEach(function(p) {
-            p.style.color = event.target.value;
-          });
-        }
+function updateFirst(event) {
+  var p = document.querySelector("p");
+  hex = event.target.value;
+  console.log(hex)
+  if (p) {
+  p.style.color = event.target.value;
+ }
+}
+function updateAll(event) {
+  document.querySelectorAll("p").forEach(function(p) {
+    p.style.color = event.target.value;
+  });
+}
