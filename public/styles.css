@@ -1,5 +1,5 @@
 #main-page {
-    padding-top: 10%;
+    padding-top: 9%;
     /* width: 100px; */
 }
 footer {
@@ -13,4 +13,29 @@ body {
     background-color: #e4e4e4;
     align-items: center;
     text-align: center; 
+    font-family: 'Roboto', sans-serif;
+}
+input[type="color"]{
+    width: 20px;
+    height: 20px;
+	border: none;
+}
+input[type="text"]{
+    width: 2%;
+}
+#color-xy-div {
+    padding-top: 0.5%;
+    /* padding-top: 8%; */
+}
+input[type="text"]{
+    border: none;
+}
+#submit-button {
+    color: black;
+    max-width: 200px;
+    width: 15%;
+}
+.button {
+    width: inherit;
+    padding-top: 1%;
 }
