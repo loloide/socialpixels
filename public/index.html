@@ -9,22 +9,28 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/addons/p5.sound.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    
   </head>
     <body>
       <div id="main-page">
         <h1 id="socialpixelsTitle">Socialpixels</h1>
-        <div id="canvasDiv">
-          <div>
-            <input type="color" value="0000ff" id="colorWell">
+          <div id="canvasDiv">  
+            <script class="canvas" type="text/javascript" src="sketch.js"></script>
           </div>
+        <div id="color-xy-div">
+          <label for="colorWell">Color: </label>
+          <input type="color" value="0000ff" id="colorWell">
+          <label for="x-input">Coords</label>
+          <input type="text" placeholder="x" id="x-input">
+          <input type="text" placeholder="y" id="y-input">
           <br>
-          <script type="text/javascript" src="sketch.js"></script>
+        </div>
+        <div class="button">
+          <button id="submit-button">Send</button>
+          <!--<input type="button" id="1" value="🔍" onclick="toggle(this);">-->
+
         </div>
       </div>
-      <footer>
-        <a>loloide</a>
-        <a></a>
-      </footer>
     </body>
 </html>

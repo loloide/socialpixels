@@ -1,11 +1,10 @@
-// Based off of Shawn Van Every's Live Web
-// http://itp.nyu.edu/~sve204/liveweb_fall2013/week3.html
-
-// Using express: http://expressjs.com/
 var express = require('express');
 // Create the app
+
+
 var app = express();
 
+//database
 // Set up the server
 // process.env.PORT is related to deploying on heroku
 var server = app.listen(process.env.PORT || 3000, listen);
@@ -39,11 +38,10 @@ io.sockets.on('connection',
         console.log("Received: 'mouse' " + data.x + " " + data.y + " " + data.h);
       
         // Send it to all other clients
-        socket.broadcast.emit('mouse', data);
+        //socket.broadcast.emit('mouse', data);
         
         // This is a way to send to everyone including sender
-        // io.sockets.emit('message', "this goes to everyone");
-
+        io.sockets.emit('mouse', data);
       }
     );
     
