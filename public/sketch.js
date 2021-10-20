@@ -20,29 +20,23 @@ function setup() {
 }
 // draw
 function mousePressed() {
-  //if (zoomed == true) {
-  //mouseX = mouseX /= 2;
-  //mouseY = mouseY /= 2;
-  //}
-  //else {
-  //  mouseX = mouseX;
-  //  mouseY = mouseY;
-  //}
-  if (mouseX && mouseY < 200) {
+  fill(hex);
+  noStroke();
+  rect(mouseX,mouseY,1,1);
   sendmouse(mouseX,mouseY);
-  }
 }
 
 function sendmouse(xpos, ypos) {
   console.log("sendmouse: " + xpos + " " + ypos + " " + hex);
+  
   // send x, y and hex
   var data = {
     x: xpos,
     y: ypos,
     h: hex
   };
-  socket.emit('mouse',data);
 
+  socket.emit('mouse',data);
 }
 
 
@@ -71,16 +65,4 @@ function updateAll(event) {
   document.querySelectorAll("p").forEach(function(p) {
     p.style.color = event.target.value;
   });
-}
-
-var zoomed = 1;
-
-function toggle(button){
-  if(zoomed = 1){
-   zoomed = 0;
-    }
-
-  else if(zoomed = 0){
-  zoomed = 1;
-    }
 }
