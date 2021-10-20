@@ -4,7 +4,9 @@
   "description": "pixels",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,10 @@
   "homepage": "https://github.com/loloide/socialpixels#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^1.4.5"
-  }
+    "firebase": "^9.1.3",
+    "parcel": "^2.0.0",
+    "socket.io": "^1.4.5",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {}
 }
