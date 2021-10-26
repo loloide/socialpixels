@@ -20,9 +20,6 @@ function setup() {
 }
 // draw
 function mousePressed() {
-  fill(hex);
-  noStroke();
-  rect(mouseX,mouseY,1,1);
   sendmouse(mouseX,mouseY);
 }
 
@@ -66,5 +63,3 @@ function updateAll(event) {
     p.style.color = event.target.value;
   });
 }
-
-firebase

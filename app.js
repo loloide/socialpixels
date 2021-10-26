@@ -17,7 +17,7 @@ function listen() {
   console.log('listening at http://localhost:1234');
 }
 
-app.use(express.static('public'));
+app.use(express.static('dist'));
 
 
 // WebSocket Portion
@@ -39,10 +39,7 @@ io.sockets.on('connection',
         console.log("Received: 'mouse' " + data.x + " " + data.y + " " + data.h);
       
         // Send it to all other clients
-        socket.broadcast.emit('mouse', data);
-        
-        // This is a way to send to everyone including sender
-        // io.sockets.emit('message', "this goes to everyone");
+        io.sockets.emit('mouse', data);
 
       }
     );
