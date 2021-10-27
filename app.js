@@ -14,10 +14,10 @@ var server = app.listen(process.env.PORT || 3000, listen);
 function listen() {
   var host = server.address().address; 
   var port = server.address().port;
-  console.log('listening at http://localhost:1234');
+  console.log('listening at http://localhost:3000');
 }
 
-app.use(express.static('public'));
+app.use(express.static('dist'));
 
 
 // WebSocket Portion

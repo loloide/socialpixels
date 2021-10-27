@@ -1,6 +1,6 @@
+var database = window.database;
 var socket;
-var sf
-socket = io.connect('http://localhost:3000');
+socket = io.connect("http://localhost:3000")
 
 function setup() {
   var canvas = createCanvas(200, 200);
@@ -13,46 +13,43 @@ function setup() {
       // Draw recieved data
       fill(data.h);
       noStroke();
-
       rect(data.x, data.y, 1, 1);
     }
   );
 }
+
 // draw
 function mousePressed() {
-  fill(hex);
-  noStroke();
-  rect(mouseX,mouseY,1,1);
-  sendmouse(mouseX,mouseY);
+  if (mouseX > 0 && mouseX < 200) {
+      if (mouseY > 0 && mouseY < 200){
+        sendmouse(mouseX, mouseY)
+        database.writepixel(mouseX, mouseY)
+        
+      }
+  }
 }
-
 function sendmouse(xpos, ypos) {
   console.log("sendmouse: " + xpos + " " + ypos + " " + hex);
-  
   // send x, y and hex
   var data = {
     x: xpos,
     y: ypos,
     h: hex
   };
-
-  socket.emit('mouse',data);
+  socket.emit('mouse', data);
 }
-
 
 // colour picker
 var colorWell;
 var defaultColor = "000000";
 var hex = "FFFFFF"
 window.addEventListener("load", startup, false);
-
 function startup() {
   colorWell = document.querySelector("#colorWell");
   colorWell.value = defaultColor;
   colorWell.addEventListener("input", updateFirst, false);
   colorWell.select();
 }
-
 function updateFirst(event) {
   var p = document.querySelector("p");
   hex = event.target.value;
@@ -66,5 +63,3 @@ function updateAll(event) {
     p.style.color = event.target.value;
   });
 }
-
-firebase
