@@ -17,7 +17,7 @@ const app = initializeApp(firebaseConfig);
 window.database = {};
 window.database.writepixel = function(xpos, ypos) {
   const database = getDatabase(app);
-  set(ref(database, 'pixels'), [{
+  push(ref(database, 'pixels/'), [{
     x: xpos,
     y: ypos,
     h: hex

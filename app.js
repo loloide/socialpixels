@@ -12,9 +12,9 @@ var server = app.listen(process.env.PORT || 3000, listen);
 
 // This call back just tells us that the server has started
 function listen() {
-  var host = server.address().address; 
+  var host = "localhost"
   var port = server.address().port;
-  console.log('listening at http://localhost:3000');
+  console.log('Example app listening at http://' + host + ':' + port);
 }
 
 app.use(express.static('dist'));
@@ -36,7 +36,7 @@ io.sockets.on('connection',
     socket.on('mouse',
       function(data) {
         // Data comes in as whatever was sent, including objects
-        console.log("Received: 'mouse' " + data.x + " " + data.y + " " + data.h);
+        console.log("Received: 'mouse' " + data.x + " " + data.y);
       
         // Send it to all other clients
         io.sockets.emit('mouse', data);

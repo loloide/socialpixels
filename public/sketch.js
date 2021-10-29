@@ -5,7 +5,7 @@ socket = io.connect("http://localhost:3000")
 function setup() {
   var canvas = createCanvas(200, 200);
   canvas.parent("canvasDiv")
-  background(0);
+  background("#e4e4e4");
   socket.on('mouse',
     // receive data
     function(data) {
@@ -20,6 +20,8 @@ function setup() {
 
 // draw
 function mousePressed() {
+  mouseX = parseInt(mouseX)
+  mouseY = parseInt(mouseY)
   if (mouseX > 0 && mouseX < 200) {
       if (mouseY > 0 && mouseY < 200){
         sendmouse(mouseX, mouseY)
