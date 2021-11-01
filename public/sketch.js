@@ -26,7 +26,7 @@ function mousePressed() {
       if (mouseY > 0 && mouseY < 200){
         sendmouse(mouseX, mouseY)
         database.writepixel(mouseX, mouseY)
-        
+        database.readpixels()
       }
   }
 }
@@ -43,7 +43,7 @@ function sendmouse(xpos, ypos) {
 
 // colour picker
 var colorWell;
-var defaultColor = "000000";
+var defaultColor = "#e4e4e4";
 var hex = "FFFFFF"
 window.addEventListener("load", startup, false);
 function startup() {
@@ -65,3 +65,4 @@ function updateAll(event) {
     p.style.color = event.target.value;
   });
 }
+console.log("What are you looking at? There's nothing here")

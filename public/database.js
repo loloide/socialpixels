@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set } from "firebase/database";
+import { getDatabase, ref, push, set, on } from "firebase/database";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDstHMTKDX10g3A0sv_1kEXqpvdgKONPUE",
@@ -14,13 +14,29 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
+//write
 window.database = {};
 window.database.writepixel = function(xpos, ypos) {
-  const database = getDatabase(app);
-  push(ref(database, 'pixels/'), [{
+  const db = getDatabase();
+  const postListRef = ref(db, 'pixels');
+  const newPostRef = push(postListRef);
+  set(newPostRef, {
     x: xpos,
-    y: ypos,
-    h: hex
-  }]);
+    y:ypos,
+    h:hex
+  });
   console.log("sent to database")
+};
+
+//read
+window.database.readpixels = function() {
+  console.log("read database")
+  const db = admin.database();
+  const ref = db.ref('pixels');
+
+  ref.on('value', (snapshot) => {
+    console.log(snapshot.val());
+  }, (errorObject) => {
+    console.log('The read failed: ' + errorObject.name);
+  });
 }
