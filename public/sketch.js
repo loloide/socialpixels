@@ -3,6 +3,8 @@ var socket;
 socket = io.connect("http://localhost:3000")
 
 function setup() {
+  database.readpixels(); 
+
   var canvas = createCanvas(200, 200);
   canvas.parent("canvasDiv")
   background("#e4e4e4");
@@ -26,7 +28,6 @@ function mousePressed() {
       if (mouseY > 0 && mouseY < 200){
         sendmouse(mouseX, mouseY)
         database.writepixel(mouseX, mouseY)
-        database.readpixels()
       }
   }
 }

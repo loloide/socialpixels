@@ -5,7 +5,7 @@
 .p5Canvas {
     border-style: solid;
     border-width: 1px;
-    border-color: 0,0,0;
+    border-color: #000000;
     border-radius: 5px;
 }
 footer {

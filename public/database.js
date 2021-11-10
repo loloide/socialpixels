@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, push, set, on } from "firebase/database";
+import { getDatabase, ref, push, set, onValue, child, get } from "firebase/database";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDstHMTKDX10g3A0sv_1kEXqpvdgKONPUE",
@@ -29,14 +29,21 @@ window.database.writepixel = function(xpos, ypos) {
 };
 
 //read
-window.database.readpixels = function() {
-  console.log("read database")
-  const db = admin.database();
-  const ref = db.ref('pixels');
 
-  ref.on('value', (snapshot) => {
-    console.log(snapshot.val());
-  }, (errorObject) => {
-    console.log('The read failed: ' + errorObject.name);
-  });
-}
+window.database.readpixels = function() {
+  const dbRef = ref(getDatabase());
+  get(child(dbRef, 'pixels')).then((pixels) => {
+    console.log(pixels.val());
+    pixels.forEach(function(pixel) {
+      console.log(pixel.val())
+      //still needs to draw >:(
+      fill(hex);  
+      noStroke();
+      rect(pixel.val.x, pixel.val.y)
+    }
+    // for (i in pixels.val()) {
+    //   var pixelData = pixels.val(child)
+    //   console.log(pixelData)
+    // }
+    );}
+  );}
