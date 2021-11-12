@@ -1,7 +1,7 @@
 var database = window.database;
 var socket;
 socket = io.connect("http://localhost:3000")
-
+//setup
 function setup() {
   database.readpixels(); 
 
@@ -11,7 +11,7 @@ function setup() {
   socket.on('mouse',
     // receive data
     function(data) {
-      console.log("Got: " + data.x + " " + data.y + " " + data.h);
+      console.log("Got: " + data.x + "," + data.y + "," + data.h);
       // Draw recieved data
       fill(data.h);
       noStroke();
@@ -20,19 +20,19 @@ function setup() {
   );
 }
 
-// draw
+//see if the pixel is on valid coords
 function mousePressed() {
   mouseX = parseInt(mouseX)
   mouseY = parseInt(mouseY)
   if (mouseX > 0 && mouseX < 200) {
       if (mouseY > 0 && mouseY < 200){
         sendmouse(mouseX, mouseY)
-        database.writepixel(mouseX, mouseY)
       }
   }
 }
+//send mouse data (socket)
 function sendmouse(xpos, ypos) {
-  console.log("sendmouse: " + xpos + " " + ypos + " " + hex);
+  console.log("Sent: " + xpos + "," + ypos + "," + hex);
   // send x, y and hex
   var data = {
     x: xpos,
@@ -40,6 +40,8 @@ function sendmouse(xpos, ypos) {
     h: hex
   };
   socket.emit('mouse', data);
+  //send mouse data (firebase)
+  database.writepixel(mouseX, mouseY)
 }
 
 // colour picker
@@ -66,4 +68,6 @@ function updateAll(event) {
     p.style.color = event.target.value;
   });
 }
+
+//dev do a little trolling <3
 console.log("What are you looking at? There's nothing here")

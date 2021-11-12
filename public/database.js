@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, push, set, onValue, child, get } from "firebase/database";
+import { getDatabase, ref, push, set, child, get } from "firebase/database";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDstHMTKDX10g3A0sv_1kEXqpvdgKONPUE",
@@ -14,7 +14,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-//write
+//write database
 window.database = {};
 window.database.writepixel = function(xpos, ypos) {
   const db = getDatabase();
@@ -28,22 +28,19 @@ window.database.writepixel = function(xpos, ypos) {
   console.log("sent to database")
 };
 
-//read
-
+//read database
 window.database.readpixels = function() {
   const dbRef = ref(getDatabase());
   get(child(dbRef, 'pixels')).then((pixels) => {
+    //log pixels information
     console.log(pixels.val());
+    //get individual pixels
     pixels.forEach(function(pixel) {
-      console.log(pixel.val())
-      //still needs to draw >:(
-      fill(hex);  
-      noStroke();
-      rect(pixel.val.x, pixel.val.y)
+      var pixelData = pixel.val();
+      console.log("Got from database: " + pixelData.x + "," + pixelData.y + "," + pixelData.h)
+      fill(pixelData.h)
+      noStroke()
+      rect(pixelData.x, pixelData.y, 1, 1)
     }
-    // for (i in pixels.val()) {
-    //   var pixelData = pixels.val(child)
-    //   console.log(pixelData)
-    // }
     );}
   );}
