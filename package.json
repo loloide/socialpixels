@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel",
+    "start": "parcel public/index.html",
     "build": "parcel build"
   },
   "repository": {

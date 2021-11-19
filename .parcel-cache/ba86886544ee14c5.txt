@@ -4,7 +4,7 @@
 52/home/lorendlc/codigo/socialpixels/public/index.html1636746588220667118 0
 53/home/lorendlc/codigo/socialpixels/public/favicon.ico1635535669376000000 0
 41/home/lorendlc/codigo/socialpixels/public1636136733304852524 1
-47/home/lorendlc/codigo/socialpixels/package.json1637347334864835263 0
+47/home/lorendlc/codigo/socialpixels/package.json1637182234594918418 0
 57/home/lorendlc/codigo/socialpixels/dist/index.ce0adaea.js1637175084858877490 0
 62/home/lorendlc/codigo/socialpixels/dist/index.c265003f.css.map1637175084858877490 0
 57/home/lorendlc/codigo/socialpixels/dist/index.036e810b.js1637175084834861298 0
