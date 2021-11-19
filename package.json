@@ -2,10 +2,17 @@
   "name": "socialpixels",
   "version": "1.0.0",
   "description": "pixels",
-  "browser": "public/index.html",
+  "main": "app.js",
+  "targets": {
+    "main": false,
+    "global": {
+      "context": "browser",
+      "outputFormat": "global"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel public/index.html",
+    "start": "parcel build public/index.html",
     "build": "parcel build public/index.html"
   },
   "repository": {

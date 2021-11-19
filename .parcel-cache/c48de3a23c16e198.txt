@@ -1,17 +1,18 @@
-27022
+27029
 43/home/lorendlc/codigo/socialpixels/Procfile1637180061013826950 0
 52/home/lorendlc/codigo/socialpixels/public/styles.css1636745579634695697 0
 52/home/lorendlc/codigo/socialpixels/public/index.html1636746588220667118 0
 53/home/lorendlc/codigo/socialpixels/public/favicon.ico1635535669376000000 0
 41/home/lorendlc/codigo/socialpixels/public1636136733304852524 1
-47/home/lorendlc/codigo/socialpixels/package.json1637347334864835263 0
-57/home/lorendlc/codigo/socialpixels/dist/index.ce0adaea.js1637175084858877490 0
-62/home/lorendlc/codigo/socialpixels/dist/index.c265003f.css.map1637175084858877490 0
-57/home/lorendlc/codigo/socialpixels/dist/index.036e810b.js1637175084834861298 0
-50/home/lorendlc/codigo/socialpixels/dist/index.html1637175084862880188 0
-60/home/lorendlc/codigo/socialpixels/dist/favicon.359215c2.ico1637175084814847806 0
-58/home/lorendlc/codigo/socialpixels/dist/index.c265003f.css1637175084858877490 0
-61/home/lorendlc/codigo/socialpixels/dist/index.036e810b.js.map1637175084858877490 0
+47/home/lorendlc/codigo/socialpixels/package.json1637352342985689166 0
+57/home/lorendlc/codigo/socialpixels/dist/index.ce0adaea.js1637352351489681795 0
+62/home/lorendlc/codigo/socialpixels/dist/index.c265003f.css.map1637352350585682570 0
+57/home/lorendlc/codigo/socialpixels/dist/index.036e810b.js1637352351489681795 0
+50/home/lorendlc/codigo/socialpixels/dist/index.html1637352262025768467 0
+57/home/lorendlc/codigo/socialpixels/dist/index.9d619e84.js1637352262025768467 0
+60/home/lorendlc/codigo/socialpixels/dist/favicon.359215c2.ico1637352350573682581 0
+58/home/lorendlc/codigo/socialpixels/dist/index.c265003f.css1637352350577682577 0
+61/home/lorendlc/codigo/socialpixels/dist/index.036e810b.js.map1637352351509681777 0
 44/home/lorendlc/codigo/socialpixels/README.md1637172343602850294 0
 73/home/lorendlc/codigo/socialpixels/node_modules/vm-browserify/.travis.yml1634756992755000000 0
 81/home/lorendlc/codigo/socialpixels/node_modules/vm-browserify/.github/FUNDING.yml1634756992755000000 0
@@ -1228,6 +1229,7 @@
 82/home/lorendlc/codigo/socialpixels/node_modules/@firebase/util/dist/src/crypt.d.ts1636749731292348129 0
 71/home/lorendlc/codigo/socialpixels/node_modules/@firebase/util/dist/src1636749732080344074 1
 85/home/lorendlc/codigo/socialpixels/node_modules/@firebase/util/dist/index.node.cjs.js1636749727644366789 0
+60/home/lorendlc/codigo/socialpixels/dist/favicon.ab367b7e.ico1637352262001768493 0
 98/home/lorendlc/codigo/socialpixels/node_modules/@firebase/util/dist/node-esm/test/object.test.d.ts1636749731968344651 0
 111/home/lorendlc/codigo/socialpixels/node_modules/@firebase/util/dist/node-esm/test/exponential_backoff.test.d.ts1636749731392347615 0
 98/home/lorendlc/codigo/socialpixels/node_modules/@firebase/util/dist/node-esm/test/base64.test.d.ts1636749731232348438 0
@@ -4859,6 +4861,7 @@
 90/home/lorendlc/codigo/socialpixels/node_modules/core-js/stable/array/virtual/find-index.js1636749737172317641 0
 88/home/lorendlc/codigo/socialpixels/node_modules/@firebase/performance/dist/esm/src/utils1636749732092344012 1
 83/home/lorendlc/codigo/socialpixels/node_modules/firebase/messaging/dist/compat/auth1636749750748245324 1
+57/home/lorendlc/codigo/socialpixels/dist/index.7045984c.js1637352262025768467 0
 112/home/lorendlc/codigo/socialpixels/node_modules/@firebase/auth/dist/esm2017/src/api/authentication/idp.test.d.ts1636749746788266692 0
 81/home/lorendlc/codigo/socialpixels/node_modules/@protobufjs/eventemitter/index.js1634756973187999000 0
 86/home/lorendlc/codigo/socialpixels/node_modules/terser/node_modules/source-map/LICENSE1634756989453000000 0
@@ -5288,6 +5291,7 @@
 109/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/es/instance/concat.js1636749731428347430 0
 96/home/lorendlc/codigo/socialpixels/node_modules/jsdom/lib/jsdom/living/events/InputEvent-impl.js1634756992161000000 0
 102/home/lorendlc/codigo/socialpixels/node_modules/jsdom/lib/jsdom/living/events/CompositionEvent-impl.js1634756992161000000 0
+62/home/lorendlc/codigo/socialpixels/dist/index.4b051834.css.map1637352262033768459 0
 112/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.math.log10.js1636749738840308900 0
 96/home/lorendlc/codigo/socialpixels/node_modules/jsdom/lib/jsdom/living/events/MouseEvent-impl.js1634756992161000000 0
 93/home/lorendlc/codigo/socialpixels/node_modules/firebase/compat/app/dist/compat/index.rn.d.ts1636749750868244674 0
@@ -6961,6 +6965,7 @@
 93/home/lorendlc/codigo/socialpixels/node_modules/@parcel/package-manager/lib/installPackage.js1634756974921999000 0
 68/home/lorendlc/codigo/socialpixels/node_modules/cors/CONTRIBUTING.md1637182232698938890 0
 88/home/lorendlc/codigo/socialpixels/node_modules/source-map-js/lib/source-map-consumer.js1634756989105999000 0
+61/home/lorendlc/codigo/socialpixels/dist/index.7045984c.js.map1637352262033768459 0
 68/home/lorendlc/codigo/socialpixels/node_modules/pako/lib/zlib/README1634756973017999000 0
 89/home/lorendlc/codigo/socialpixels/node_modules/@firebase/auth/dist/esm2017/src/core/util1636749748936255131 1
 93/home/lorendlc/codigo/socialpixels/node_modules/caniuse-lite/data/features/css-containment.js1636749732624341267 0
@@ -9610,7 +9615,7 @@
 100/home/lorendlc/codigo/socialpixels/node_modules/@babel/core/node_modules/source-map/lib/array-set.js1634756989875999000 0
 77/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/cbrt.js1636749732720340772 0
 56/home/lorendlc/codigo/socialpixels/node_modules/csso/lib1634757101758585106 1
-34/home/lorendlc/codigo/socialpixels1637179869030159978 1
+34/home/lorendlc/codigo/socialpixels1637352190781853434 1
 92/home/lorendlc/codigo/socialpixels/node_modules/core-js/modules/esnext.string.replace-all.js1636749736252322444 0
 90/home/lorendlc/codigo/socialpixels/node_modules/@firebase/auth/dist/esm2017/src/index.d.ts1636749747716261705 0
 62/home/lorendlc/codigo/socialpixels/node_modules/lodash/mean.js1634756992164999000 0
@@ -9688,7 +9693,7 @@
 73/home/lorendlc/codigo/socialpixels/node_modules/firebase/performance/dist1636749750812244978 1
 78/home/lorendlc/codigo/socialpixels/node_modules/@parcel/runtime-js/lib/helpers1634757154591272726 1
 82/home/lorendlc/codigo/socialpixels/node_modules/core-js/stable/instance/reverse.js1636749742672288664 0
-61/home/lorendlc/codigo/socialpixels/dist/index.ce0adaea.js.map1637175084862880188 0
+61/home/lorendlc/codigo/socialpixels/dist/index.ce0adaea.js.map1637352351497681788 0
 114/home/lorendlc/codigo/socialpixels/node_modules/@firebase/firestore/dist/lite/packages/firestore/compat/index.d.ts1636749747812261188 0
 66/home/lorendlc/codigo/socialpixels/node_modules/lodash/findLast.js1634756992164999000 0
 84/home/lorendlc/codigo/socialpixels/node_modules/@nodelib/fs.scandir/out/constants.js1634756991341000000 0
@@ -15107,7 +15112,7 @@
 116/home/lorendlc/codigo/socialpixels/node_modules/@firebase/auth/dist/rn/src/api/authentication/custom_token.test.d.ts1636749739012307997 0
 69/home/lorendlc/codigo/socialpixels/node_modules/source-map-js/LICENSE1634756989105999000 0
 78/home/lorendlc/codigo/socialpixels/node_modules/es-abstract/2021/BigInt/add.js1634756996086999000 0
-39/home/lorendlc/codigo/socialpixels/dist1637175084862880188 1
+39/home/lorendlc/codigo/socialpixels/dist1637352351513681775 1
 118/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/features/number/parse-float.js1636749735916324196 0
 72/home/lorendlc/codigo/socialpixels/node_modules/browserify-sign/index.js1634756994680000000 0
 97/home/lorendlc/codigo/socialpixels/node_modules/cssstyle/lib/properties/webkitBorderStartColor.js1634756993825000000 0
@@ -19319,7 +19324,7 @@
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/hypot.js1636749737356316678 0
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/isubh.js1636749738916308501 0
 78/home/lorendlc/codigo/socialpixels/node_modules/svgo/plugins/removeUnusedNS.js1634756986023000000 0
-52/home/lorendlc/codigo/socialpixels/package-lock.json1637182234594918418 0
+52/home/lorendlc/codigo/socialpixels/package-lock.json1637347822080763929 0
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/index.js1636749738024313182 0
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/clamp.js1636749732728340730 0
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/iaddh.js1636749737360316656 0
@@ -21713,6 +21718,7 @@
 68/home/lorendlc/codigo/socialpixels/node_modules/iconv-lite/encodings1634759384910867626 1
 77/home/lorendlc/codigo/socialpixels/node_modules/iconv-lite/encodings/index.js1634756963710000000 0
 75/home/lorendlc/codigo/socialpixels/node_modules/iconv-lite/encodings/tables1634759385114714523 1
+61/home/lorendlc/codigo/socialpixels/dist/index.9d619e84.js.map1637352262033768459 0
 65/home/lorendlc/codigo/socialpixels/node_modules/has/test/index.js1634756996825000000 0
 121/home/lorendlc/codigo/socialpixels/node_modules/postcss-modules-local-by-default/node_modules/postcss/docs/source-maps.md1634756993053999000 0
 86/home/lorendlc/codigo/socialpixels/node_modules/iconv-lite/encodings/tables/cp949.json1634756963710000000 0
@@ -23022,7 +23028,7 @@
 123/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/features/object/set-prototype-of.js1636749735972323905 0
 101/home/lorendlc/codigo/socialpixels/node_modules/firebase/compat/auth/dist/compat/firestore/index.d.ts1636749749016254699 0
 75/home/lorendlc/codigo/socialpixels/node_modules/es-abstract/2015/ToInt16.js1634756996086999000 0
-66/home/lorendlc/codigo/socialpixels/node_modules/.package-lock.json1637182234646917857 0
+66/home/lorendlc/codigo/socialpixels/node_modules/.package-lock.json1637347822136764061 0
 56/home/lorendlc/codigo/socialpixels/node_modules/domutils1634757037180132693 1
 134/home/lorendlc/codigo/socialpixels/node_modules/@firebase/firestore/dist/lite/packages/firestore/test/unit/local/local_store.test.d.ts1636749748036259984 0
 97/home/lorendlc/codigo/socialpixels/node_modules/@parcel/runtime-js/lib/helpers/node/css-loader.js1634756979111999000 0
@@ -26710,6 +26716,7 @@
 115/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/stable/typed-array/every.js1636749744560278615 0
 87/home/lorendlc/codigo/socialpixels/node_modules/es-abstract/2021/ToIntegerOrInfinity.js1634756996086999000 0
 101/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/stable/number1636749742720288408 1
+58/home/lorendlc/codigo/socialpixels/dist/index.4b051834.css1637352262025768467 0
 112/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/stable/number/epsilon.js1636749742712288451 0
 114/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/stable/number/parse-int.js1636749742720288408 0
 120/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/stable/number/is-safe-integer.js1636749742716288430 0
