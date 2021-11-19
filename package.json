@@ -2,7 +2,6 @@
   "name": "socialpixels",
   "version": "1.0.0",
   "description": "pixels",
-  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.html",
