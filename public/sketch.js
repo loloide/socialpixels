@@ -1,6 +1,6 @@
 var database = window.database;
 var socket;
-socket = io.connect("http://localhost:3000")
+socket = io.connect("https://socialpixels.herokuapp.com/")
 //setup
 function setup() {
   database.readpixels(); 
