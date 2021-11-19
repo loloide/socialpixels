@@ -22,7 +22,15 @@ app.use(express.static('dist'));
 
 // WebSocket Portion
 // WebSockets work with the HTTP server
-var io = require('socket.io')(server);
+var io = require('socket.io')(server, {
+  cors: {
+    origin: "https://socialpixels.herokuapp.com/",
+    methods: ["GET", "POST"],
+    transports: ['websocket', 'polling'],
+    credentials: true
+},
+allowEIO3: true
+});
 
 // Register a callback function to run when we have an individual connection
 // This is run for each individual user that connects

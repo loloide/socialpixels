@@ -33,7 +33,6 @@ window.database.readpixels = function() {
   const dbRef = ref(getDatabase());
   get(child(dbRef, 'pixels')).then((pixels) => {
     //log pixels information
-    console.log(pixels.val());
     //get individual pixels
     pixels.forEach(function(pixel) {
       var pixelData = pixel.val();
