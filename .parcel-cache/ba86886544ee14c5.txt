@@ -4,7 +4,7 @@
 52/home/lorendlc/codigo/socialpixels/public/index.html1636746588220667118 0
 53/home/lorendlc/codigo/socialpixels/public/favicon.ico1635535669376000000 0
 41/home/lorendlc/codigo/socialpixels/public1636136733304852524 1
-47/home/lorendlc/codigo/socialpixels/package.json1637182234594918418 0
+47/home/lorendlc/codigo/socialpixels/package.json1637349063564682135 0
 57/home/lorendlc/codigo/socialpixels/dist/index.ce0adaea.js1637175084858877490 0
 62/home/lorendlc/codigo/socialpixels/dist/index.c265003f.css.map1637175084858877490 0
 57/home/lorendlc/codigo/socialpixels/dist/index.036e810b.js1637175084834861298 0
@@ -19319,7 +19319,7 @@
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/hypot.js1636749737356316678 0
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/isubh.js1636749738916308501 0
 78/home/lorendlc/codigo/socialpixels/node_modules/svgo/plugins/removeUnusedNS.js1634756986023000000 0
-52/home/lorendlc/codigo/socialpixels/package-lock.json1637182234594918418 0
+52/home/lorendlc/codigo/socialpixels/package-lock.json1637347822080763929 0
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/index.js1636749738024313182 0
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/clamp.js1636749732728340730 0
 78/home/lorendlc/codigo/socialpixels/node_modules/core-js/features/math/iaddh.js1636749737360316656 0
@@ -23022,7 +23022,7 @@
 123/home/lorendlc/codigo/socialpixels/node_modules/@firebase/polyfill/node_modules/core-js/features/object/set-prototype-of.js1636749735972323905 0
 101/home/lorendlc/codigo/socialpixels/node_modules/firebase/compat/auth/dist/compat/firestore/index.d.ts1636749749016254699 0
 75/home/lorendlc/codigo/socialpixels/node_modules/es-abstract/2015/ToInt16.js1634756996086999000 0
-66/home/lorendlc/codigo/socialpixels/node_modules/.package-lock.json1637182234646917857 0
+66/home/lorendlc/codigo/socialpixels/node_modules/.package-lock.json1637347822136764061 0
 56/home/lorendlc/codigo/socialpixels/node_modules/domutils1634757037180132693 1
 134/home/lorendlc/codigo/socialpixels/node_modules/@firebase/firestore/dist/lite/packages/firestore/test/unit/local/local_store.test.d.ts1636749748036259984 0
 97/home/lorendlc/codigo/socialpixels/node_modules/@parcel/runtime-js/lib/helpers/node/css-loader.js1634756979111999000 0

@@ -2,11 +2,11 @@
   "name": "socialpixels",
   "version": "1.0.0",
   "description": "pixels",
-  "main": "public/index.html",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "build": "parcel public/index.html"
   },
   "repository": {
     "type": "git",
