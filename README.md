@@ -18,4 +18,4 @@ edit with
 yarn parcel .\public\index.html
 ```
 ## Deploy :>
-https://twitter.com/valhalla0707/status/1462405501510361090
+https://socialpixels.herokuapp.com/
