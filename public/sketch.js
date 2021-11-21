@@ -71,3 +71,11 @@ function updateAll(event) {
 
 //dev do a little trolling <3
 console.log("What are you looking at? There's nothing here")
+var xinput
+var yinput
+function test() {
+  var xinput = document.getElementById("x-input").value;
+  var yinput = document.getElementById("y-input").value;
+
+  sendmouse(xinput, yinput);
+}
