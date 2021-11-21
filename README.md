@@ -17,5 +17,5 @@ edit with
 ```
 yarn parcel .\public\index.html
 ```
-
-the deployment is still to do on heroku
+## Deploy :>
+https://twitter.com/valhalla0707/status/1462405501510361090
