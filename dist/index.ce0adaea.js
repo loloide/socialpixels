@@ -68,5 +68,8 @@ function test() {
     var yinput = document.getElementById("y-input").value;
     sendmouse(xinput, yinput);
 }
+function savecanvas() {
+    save('my-great-proejct.png');
+}
 
 //# sourceMappingURL=index.ce0adaea.js.map

@@ -76,6 +76,8 @@ var yinput
 function test() {
   var xinput = document.getElementById("x-input").value;
   var yinput = document.getElementById("y-input").value;
-
   sendmouse(xinput, yinput);
+}
+function savecanvas() {
+  save('my-great-proejct.png');
 }
