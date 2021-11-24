@@ -24,11 +24,7 @@ function setup() {
 function mousePressed() {
   mouseX = parseInt(mouseX)
   mouseY = parseInt(mouseY)
-  if (mouseX > 0 && mouseX < 200) {
-      if (mouseY > 0 && mouseY < 200){
-        sendmouse(mouseX, mouseY)
-      }
-  }
+  sendmouse(mouseX, mouseY)
 }
 //send mouse data (socket)
 function sendmouse(xpos, ypos) {
@@ -39,9 +35,13 @@ function sendmouse(xpos, ypos) {
     y: ypos,
     h: hex
   };
-  socket.emit('mouse', data);
-  //send mouse data (firebase)
-  database.writepixel(xpos, ypos)
+  if (mouseX > 0 && mouseX < 200) {
+    if (mouseY > 0 && mouseY < 200){
+      socket.emit('mouse', data);
+      //send mouse data (firebase)
+      database.writepixel(xpos, ypos)
+    }
+  }
 }
 
 // colour picker
@@ -58,7 +58,6 @@ function startup() {
 function updateFirst(event) {
   var p = document.querySelector("p");
   hex = event.target.value;
-  console.log(hex)
   if (p) {
   p.style.color = event.target.value;
  }
