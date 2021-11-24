@@ -41,7 +41,7 @@ function sendmouse(xpos, ypos) {
   };
   socket.emit('mouse', data);
   //send mouse data (firebase)
-  database.writepixel(mouseX, mouseY)
+  database.writepixel(xpos, ypos)
 }
 
 // colour picker
@@ -73,7 +73,8 @@ function updateAll(event) {
 console.log("What are you looking at? There's nothing here")
 var xinput
 var yinput
-function test() {
+
+function send() {
   var xinput = document.getElementById("x-input").value;
   var yinput = document.getElementById("y-input").value;
   sendmouse(xinput, yinput);

@@ -485,7 +485,7 @@ window.database.writepixel = function(xpos, ypos) {
         y: ypos,
         h: hex
     });
-    console.log("sent to database");
+    console.log("sent to database " + xpos + "," + ypos + "," + hex);
 };
 //read database
 window.database.readpixels = function() {
