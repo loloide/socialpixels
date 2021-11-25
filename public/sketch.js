@@ -20,6 +20,15 @@ function setup() {
   );
 }
 
+var xinput
+var yinput
+
+function send() {
+  var xinput = document.getElementById("x-input").value;
+  var yinput = document.getElementById("y-input").value;
+  sendmouse(xinput, yinput);
+}
+
 //see if the pixel is on valid coords
 function mousePressed() {
   mouseX = parseInt(mouseX)
@@ -28,7 +37,6 @@ function mousePressed() {
 }
 //send mouse data (socket)
 function sendmouse(xpos, ypos) {
-  console.log("Sent: " + xpos + "," + ypos + "," + hex);
   // send x, y and hex
   var data = {
     x: xpos,
@@ -38,6 +46,7 @@ function sendmouse(xpos, ypos) {
   if (mouseX > 0 && mouseX < 200) {
     if (mouseY > 0 && mouseY < 200){
       socket.emit('mouse', data);
+      console.log("Sent: " + xpos + "," + ypos + "," + hex);
       //send mouse data (firebase)
       database.writepixel(xpos, ypos)
     }
@@ -68,16 +77,9 @@ function updateAll(event) {
   });
 }
 
-//dev do a little trolling <3
-console.log("What are you looking at? There's nothing here")
-var xinput
-var yinput
-
-function send() {
-  var xinput = document.getElementById("x-input").value;
-  var yinput = document.getElementById("y-input").value;
-  sendmouse(xinput, yinput);
-}
 function savecanvas() {
   save('my-great-proejct.png');
 }
+
+//dev do a little trolling <3
+console.log("What are you looking at? There's nothing here")
