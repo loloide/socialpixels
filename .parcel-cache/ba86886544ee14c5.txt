@@ -1,4 +1,4 @@
-27211
+27218
 132C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\terser\node_modules\source-map\source-map.js131709648810000000 0
 145C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\installations\dist\src\helpers\fid-changed.d.ts121436361000000000 0
 126C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\firestore\lite\dist\messaging132820000471358425 1
@@ -36,7 +36,7 @@
 108C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\cli-spinners\license121436361000000000 0
 118C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\browserify-zlib\src\binding.js131409792370000000 0
 113C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\lines-and-columns\LICENSE131267286650000000 0
-79C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist132820115568847422 1
+79C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist132823677901315525 1
 125C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\socket.io-adapter\dist\cjs\index.d.ts121436361000000000 0
 116C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\browserify-sign\node_modules132820000640584941 1
 137C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\jsdom\lib\jsdom\living\nodes\DOMTokenList-impl.js121436361000000000 0
@@ -49,7 +49,7 @@
 113C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\merge-descriptors\LICENSE130975475980000000 0
 130C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\serve-handler\node_modules\bytes\Readme.md131486896430000000 0
 130C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@babel\types\lib\converters\toStatement.js121012626000000000 0
-92C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\public\index.html132820114445184694 0
+92C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\public\index.html132823676046365139 0
 144C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth\dist\node\src\platform_browser\strategies132820000265475387 1
 102C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\parcel\LICENSE121436361000000000 0
 93C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\async132820000695461609 1
@@ -98,7 +98,7 @@
 152C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\polyfill\node_modules\core-js\es\array\virtual\fill.js121436361000000000 0
 92C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\jake132820000676874940 1
 133C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth\dist\node-esm\test\integration132820000223555106 1
-81C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\public132819994761055218 1
+81C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\public132822773522764098 1
 105C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\ripemd160\LICENSE131685915220000000 0
 140C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\database\dist\src\core\util\SortedMap.d.ts121436361000000000 0
 93C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\sshpk132820000664174936 1
@@ -168,7 +168,7 @@
 114C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\to-fast-properties\license131414904450000000 0
 116C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\minimalistic-assert\index.js121436361000000000 0
 123C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\which-boxed-primitive\.eslintignore121436361000000000 0
-93C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\public\database.js132819994761036194 0
+93C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\public\database.js132822773522744092 0
 104C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\hash.js\lib\hash132819999928519673 1
 99C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\string-hash132820000667924944 1
 144C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib132819999887283920 1
@@ -198,7 +198,7 @@
 112C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\is-negative-zero\.github132819999935169682 1
 128C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@babel\core\node_modules\.bin\semver.ps1132820000699161608 0
 127C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\uncss\node_modules\postcss\lib\parse.js121436361000000000 0
-91C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\public\sketch.js132820114955984243 0
+91C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\public\sketch.js132822774647967365 0
 137C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\htmlnano\lib\modules\collapseBooleanAttributes.js121436361000000000 0
 133C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\css-select\lib\pseudo-selectors\subselects.js121436361000000000 0
 137C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\core-js\features\object\get-own-property-names.js121436361000000000 0
@@ -1164,7 +1164,7 @@
 110C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\protobufjs\src\type.js121436361000000000 0
 152C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\postcss-modules\node_modules\postcss-modules-values\package.json132820000667964940 0
 101C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\cssnano-utils132820000691941612 1
-122C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\node_modules132820000644704923 1
+122C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\node_modules132823677013974489 1
 149C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\polyfill\node_modules\core-js\features\set\every.js121436361000000000 0
 108C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\side-channel\.github132819999887863904 1
 124C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\verror\node_modules\core-util-is\lib132819999847320038 1
@@ -1770,6 +1770,7 @@
 106C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\wcwidth\.npmignore130443257050000000 0
 106C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\lodash\_WeakMap.js121436361000000000 0
 114C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\async-limiter\package.json132820000695211603 0
+100C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\favicon.359215c2.ico132822773522584104 0
 112C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\sshpk\lib\formats\pem.js131898308050000000 0
 165C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\firestore\dist\lite\firestore\src\platform\browser\format_json.d.ts121436361000000000 0
 124C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@protobufjs\utf8\tests\data\utf8.txt131297467330000000 0
@@ -10915,7 +10916,6 @@
 109C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\core-js\stable\string132820000067774599 1
 118C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\highlight.js\scss\zenburn.scss121436361000000000 0
 106C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\lodash\core.min.js121436361000000000 0
-97C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.efa6bc9f.js132820115568367465 0
 126C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@parcel\core\src\public\Environment.js121436361000000000 0
 132C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\jsdom\lib\jsdom\living\helpers\shadow-dom.js121436361000000000 0
 108C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\lodash\curryRight.js121436361000000000 0
@@ -10955,6 +10955,7 @@
 119C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\highlight.js\scss\tomorrow.scss121436361000000000 0
 112C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\database-types132820000665734931 1
 122C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\css-tree\lib\common\SyntaxError.js121436361000000000 0
+101C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.37f78d28.js.map132823677901305590 0
 110C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\lodash\escapeRegExp.js121436361000000000 0
 103C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\lodash\every.js121436361000000000 0
 104C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\lodash\extend.js121436361000000000 0
@@ -15112,6 +15113,7 @@
 113C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@babel\code-frame\LICENSE121012626000000000 0
 124C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\database\dist\index.mjs.map121436361000000000 0
 120C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\database\dist\messaging132820000469678417 1
+101C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.036e810b.js.map132822773522684098 0
 122C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\database\dist\performance132820000469738425 1
 129C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\database\dist\storage\index.d.ts121436361000000000 0
 135C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\database\dist\remote-config\index.d.ts121436361000000000 0
@@ -16172,7 +16174,6 @@
 137C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth\dist\node-esm\src\model\enums.d.ts121436361000000000 0
 120C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\core-js\modules\es.array.flat.js121436361000000000 0
 130C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\app-check\dist\storage\index.d.ts121436361000000000 0
-101C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.efa6bc9f.js.map132820115568797464 0
 136C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\app-check\dist\remote-config\index.d.ts121436361000000000 0
 135C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\app-check\dist\messaging\sw\index.d.ts121436361000000000 0
 132C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\firebase\app-check\dist\functions\index.d.ts121436361000000000 0
@@ -23161,6 +23162,7 @@
 156C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\polyfill\node_modules\core-js\modules\es.array.for-each.js121436361000000000 0
 152C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\polyfill\node_modules\core-js\modules\es.array.from.js121436361000000000 0
 156C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\polyfill\node_modules\core-js\modules\es.array.includes.js121436361000000000 0
+97C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.036e810b.js132822773522624089 0
 156C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\polyfill\node_modules\core-js\modules\es.array.iterator.js121436361000000000 0
 133C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth\dist\src\core\util\assert.d.ts121436361000000000 0
 161C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\polyfill\node_modules\core-js\modules\es.array.last-index-of.js121436361000000000 0
@@ -25595,8 +25597,8 @@
 114C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\dist132820000055744593 1
 122C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\package.json132820000658764942 0
 119C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\README.md121436361000000000 0
-141C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\node_modules\selenium-webdriver132820000489488415 1
-154C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\node_modules\selenium-webdriver\node_modules132820000489498422 1
+141C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\node_modules\selenium-webdriver132823677013944478 1
+154C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\node_modules\selenium-webdriver\node_modules132823677013964496 1
 170C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\node_modules\selenium-webdriver\node_modules\.bin\rimraf.cmd132797520969192151 0
 126C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\dist\auth-compat132820000057694625 1
 131C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\@firebase\auth-compat\dist\firebase-auth.js121436361000000000 0
@@ -27204,9 +27206,14 @@
 101C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\.bin\yarn.ps1132820000704851624 0
 100C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\.bin\yarnpkg132820000704851624 0
 104C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\node_modules\.bin\yarnpkg.ps1132820000704851624 0
-100C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\favicon.ab367b7e.ico132820115568207460 0
-98C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.4b051834.css132820115568357484 0
-102C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.4b051834.css.map132820115568807427 0
-97C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.75d023b6.js132820115568357484 0
-101C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.75d023b6.js.map132820115568807427 0
-90C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.html132820115568357484 0
+100C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\favicon.ab367b7e.ico132823677839708804 0
+97C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.3663aaa2.js132823677901105567 0
+101C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.3663aaa2.js.map132823677901305590 0
+97C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.37f78d28.js132823677901095573 0
+98C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.4b051834.css132823677901095573 0
+102C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.4b051834.css.map132823677901175587 0
+98C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.c265003f.css132822773522694099 0
+102C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.c265003f.css.map132822773522704199 0
+97C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.ce0adaea.js132822773522714105 0
+101C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.ce0adaea.js.map132822773522714105 0
+90C:\Users\de la cruz\Documents\loren\juegos y programas\codigo\socialpixels\dist\index.html132823677901095573 0
