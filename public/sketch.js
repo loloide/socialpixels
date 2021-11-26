@@ -1,5 +1,6 @@
 var database = window.database;
 var socket;
+var zoomed = false
 socket = io.connect("https://socialpixels.herokuapp.com/")
 //setup
 function setup() {
@@ -32,6 +33,10 @@ function send() {
 function mousePressed() {
   mouseX = parseInt(mouseX)
   mouseY = parseInt(mouseY)
+  if (zoomed == true) {
+    mouseX / 2;
+    mousey / 2;
+  }
   sendmouse(mouseX, mouseY)
 }
 //send mouse data (socket)
@@ -42,6 +47,7 @@ function sendmouse(xpos, ypos) {
     y: ypos,
     h: hex
   };
+  
   if (xpos > 0 && xpos < 200) {
     if (ypos > 0 && ypos < 200){
       socket.emit('mouse', data);
@@ -79,10 +85,11 @@ function updateAll(event) {
 window.addEventListener("wheel", function(e) {
   if (document.getElementById("canvas-input").style.scale == 1) {
     document.getElementById("canvas-input").style.scale = 2
-    
+    zoomed = true
   }
   else {
     document.getElementById("canvas-input").style.scale = 1
+    zoomed = false
   }
 });
 
