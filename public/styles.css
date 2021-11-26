@@ -1,5 +1,5 @@
 #main-page {
-    padding-top: 9%;
+    padding-top: 100px;
     /* width: 100px; */
 }
 .p5Canvas {
@@ -32,10 +32,10 @@ input[type="color"]{
 	border: none;
 }
 input[type="text"]{
-    width: 2%;
+    width: 31px;
 }
 #color-xy-div {
-    padding-top: 0.5%;
+    padding-top: 5px;
     /* padding-top: 8%; */
 }
 input[type="text"]{
@@ -44,11 +44,11 @@ input[type="text"]{
 #submit-button {
     color: black;
     max-width: 200px;
-    width: 15%;
+    width: 300px;
 }
 .button {
     width: inherit;
-    padding-top: 1%;
+    padding-top: 5px;
 }
 #gh-logo {
     color: gray;
