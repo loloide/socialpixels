@@ -19,19 +19,22 @@
     <body>
       <div id="main-page">
         <h1 id="socialpixelsTitle">Socialpixels</h1>
-        <div id="canvasDiv">  
-          <script class="canvas" type="text/javascript" src="sketch.js"></script>
+        <div id="canvas-input">
+          <div id="canvasDiv">  
+            <script class="canvas" type="text/javascript" src="sketch.js"></script>
+          </div>
+          <div id="color-xy-div">
+            <label for="colorWell">Color: </label>
+            <input type="color" value="#e4e4e4" id="colorWell">
+            <label for="x-input">Coords</label>
+            <input type="text" placeholder="x" id="x-input">
+            <input type="text" placeholder="y" id="y-input">
+            <br>
+          </div>
+          <div class="button">
+            <button id="submit-button" onclick="send()">Send</button>
+          </div>
         </div>
-        <div id="color-xy-div">
-          <label for="colorWell">Color: </label>
-          <input type="color" value="#e4e4e4" id="colorWell">
-          <label for="x-input">Coords</label>
-          <input type="text" placeholder="x" id="x-input">
-          <input type="text" placeholder="y" id="y-input">
-          <br>
-        </div>
-        <div class="button">
-          <button id="submit-button" onclick="send()">Send</button>
       </div>
       <footer>
         <a target="_blank" href="https://github.com/loloide" style="color: #808080; text-decoration: none;">loloide - </a> 

@@ -4,7 +4,6 @@ socket = io.connect("https://socialpixels.herokuapp.com/")
 //setup
 function setup() {
   database.readpixels(); 
-
   var canvas = createCanvas(200, 200);
   canvas.parent("canvasDiv")
   background("#e4e4e4");
@@ -76,6 +75,18 @@ function updateAll(event) {
     p.style.color = event.target.value;
   });
 }
+
+window.addEventListener("wheel", function(e) {
+  if (document.getElementById("canvas-input").style.scale == 1) {
+    document.getElementById("canvas-input").style.scale = 2
+    
+  }
+  else {
+    document.getElementById("canvas-input").style.scale = 1
+  }
+  
+  console.log("wheel")
+});
 
 function savecanvas() {
   save('my-great-proejct.png');
