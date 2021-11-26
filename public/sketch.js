@@ -35,6 +35,7 @@ function mousePressed() {
   if (zoomed == true) {
     mouseX / 2;
     mousey / 2;
+    sendmouse(mouseX, mouseY)
   }
   mouseX = parseInt(mouseX)
   mouseY = parseInt(mouseY)
