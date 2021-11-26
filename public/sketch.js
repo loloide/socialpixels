@@ -31,12 +31,13 @@ function send() {
 
 //see if the pixel is on valid coords
 function mousePressed() {
-  mouseX = parseInt(mouseX)
-  mouseY = parseInt(mouseY)
+  
   if (zoomed == true) {
     mouseX / 2;
     mousey / 2;
   }
+  mouseX = parseInt(mouseX)
+  mouseY = parseInt(mouseY)
   sendmouse(mouseX, mouseY)
 }
 //send mouse data (socket)
