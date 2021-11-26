@@ -33,11 +33,11 @@ function send() {
 function mousePressed() {
   
   if (zoomed == true) {
-    mouseX / 2;
-    mousey / 2;
+    var mousedivX = mouseX / 2;
+    var mousedivY = mouseY / 2;
     mouseX = parseInt(mouseX)
     mouseY = parseInt(mouseY)
-    sendmouse(mouseX, mouseY)
+    sendmouse(mousedivX, mousedivY)
   }
   else {
     mouseX = parseInt(mouseX)
