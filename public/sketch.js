@@ -84,8 +84,6 @@ window.addEventListener("wheel", function(e) {
   else {
     document.getElementById("canvas-input").style.scale = 1
   }
-  
-  console.log("wheel")
 });
 
 function savecanvas() {
