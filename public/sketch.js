@@ -43,8 +43,8 @@ function sendmouse(xpos, ypos) {
     y: ypos,
     h: hex
   };
-  if (mouseX > 0 && mouseX < 200) {
-    if (mouseY > 0 && mouseY < 200){
+  if (xpos > 0 && xpos < 200) {
+    if (ypos > 0 && ypos < 200){
       socket.emit('mouse', data);
       console.log("Sent: " + xpos + "," + ypos + "," + hex);
       //send mouse data (firebase)
