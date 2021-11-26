@@ -35,11 +35,16 @@ function mousePressed() {
   if (zoomed == true) {
     mouseX / 2;
     mousey / 2;
+    mouseX = parseInt(mouseX)
+    mouseY = parseInt(mouseY)
     sendmouse(mouseX, mouseY)
   }
-  mouseX = parseInt(mouseX)
-  mouseY = parseInt(mouseY)
-  sendmouse(mouseX, mouseY)
+  else {
+    mouseX = parseInt(mouseX)
+    mouseY = parseInt(mouseY)
+    sendmouse(mouseX, mouseY)
+  }
+  
 }
 //send mouse data (socket)
 function sendmouse(xpos, ypos) {
