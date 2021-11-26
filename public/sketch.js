@@ -35,8 +35,8 @@ function mousePressed() {
   if (zoomed == true) {
     var mousedivX = mouseX / 2;
     var mousedivY = mouseY / 2;
-    mouseX = parseInt(mouseX)
-    mouseY = parseInt(mouseY)
+    mousedivX = parseInt(mousedivX)
+    mousedivY = parseInt(mousedivY)
     sendmouse(mousedivX, mousedivY)
   }
   else {
