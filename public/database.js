@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, push, set, child, get } from "firebase/database";
-
+const limit = 128
+var pixelsSent = 0
 const firebaseConfig = {
   apiKey: "AIzaSyDstHMTKDX10g3A0sv_1kEXqpvdgKONPUE",
   authDomain: "socialpixels-2e86f.firebaseapp.com",
@@ -17,15 +18,19 @@ const app = initializeApp(firebaseConfig);
 //write database
 window.database = {};
 window.database.writepixel = function(xpos, ypos) {
-  const db = getDatabase();
-  const postListRef = ref(db, 'pixels');
-  const newPostRef = push(postListRef);
-  set(newPostRef, {
-    x: xpos,
-    y: ypos,
-    h: hex
-  });
-  console.log("sent to database " + xpos + "," + ypos + "," + hex)
+  if (pixelsSent > limit) {
+    var pixelsSent = pixelsSent + 1
+    const db = getDatabase();
+    const postListRef = ref(db, 'pixels');
+    const newPostRef = push(postListRef);
+    set(newPostRef, {
+      x: xpos,
+      y: ypos,
+      h: hex
+    });
+    console.log("sent to database " + xpos + "," + ypos + "," + hex)
+  }
+  
 };
 
 //read database

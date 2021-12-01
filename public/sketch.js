@@ -1,6 +1,7 @@
 var database = window.database;
 var socket;
 var zoomed = false
+
 socket = io.connect("https://socialpixels.herokuapp.com/")
 //setup
 function setup() {
@@ -106,3 +107,4 @@ function savecanvas() {
 
 //dev do a little trolling <3
 console.log("What are you looking at? There's nothing here")
+database.readpixels();
