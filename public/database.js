@@ -18,8 +18,8 @@ const app = initializeApp(firebaseConfig);
 //write database
 window.database = {};
 window.database.writepixel = function(xpos, ypos) {
-  if (pixelsSent > limit) {
-    var pixelsSent = pixelsSent + 1
+  if (pixelsSent < limit) {
+    pixelsSent = pixelsSent + 1
     const db = getDatabase();
     const postListRef = ref(db, 'pixels');
     const newPostRef = push(postListRef);
