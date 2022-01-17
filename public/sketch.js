@@ -33,18 +33,11 @@ function send() {
 //see if the pixel is on valid coords
 function mousePressed() {
   
-  if (zoomed == true) {
-    var mousedivX = mouseX / 2;
-    var mousedivY = mouseY / 2;
-    mousedivX = parseInt(mousedivX)
-    mousedivY = parseInt(mousedivY)
-    sendmouse(mousedivX, mousedivY)
-  }
-  else {
-    mouseX = parseInt(mouseX)
-    mouseY = parseInt(mouseY)
-    sendmouse(mouseX, mouseY)
-  }
+
+  mouseX = parseInt(mouseX)
+  mouseY = parseInt(mouseY)
+  sendmouse(mouseX, mouseY)
+
   
 }
 //send mouse data (socket)
@@ -90,16 +83,6 @@ function updateAll(event) {
   });
 }
 
-window.addEventListener("wheel", function(e) {
-  if (document.getElementById("canvas-input").style.scale == 1) {
-    document.getElementById("canvas-input").style.scale = 2
-    zoomed = true
-  }
-  else {
-    document.getElementById("canvas-input").style.scale = 1
-    zoomed = false
-  }
-});
 
 function savecanvas() {
   save('my-great-proejct.png');
