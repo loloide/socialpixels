@@ -49,6 +49,7 @@ function sendmouse(xpos, ypos) {
     h: hex
   };
   
+  
   if (xpos > 0 && xpos < 200) {
     if (ypos > 0 && ypos < 200){
       socket.emit('mouse', data);
