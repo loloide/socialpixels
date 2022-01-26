@@ -6,6 +6,7 @@ socket = io.connect("https://socialpixels.herokuapp.com/")
 //setup
 function setup() {
   database.readpixels(); 
+  noSmooth()
   var canvas = createCanvas(200, 200);
   canvas.parent("canvasDiv")
   background("#e4e4e4");
