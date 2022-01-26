@@ -18,4 +18,4 @@ edit with
 yarn parcel .\public\index.html
 ```
 ## Deploy :>
-https://socialpixels.herokuapp.com/
+Deployed on heroku [here](https://socialpixels.herokuapp.com/).
