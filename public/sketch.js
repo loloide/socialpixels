@@ -83,12 +83,9 @@ function updateAll(event) {
     p.style.color = event.target.value;
   });
 }
-
-
 function savecanvas() {
   save('my-great-proejct.png');
 }
 
 //dev do a little trolling <3
 console.log("What are you looking at? There's nothing here")
-database.readpixels();
