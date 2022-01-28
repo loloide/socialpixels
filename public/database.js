@@ -41,7 +41,8 @@ window.database.readpixels = function() {
     //get individual pixels
     pixels.forEach(function(pixel) {
       var pixelData = pixel.val();
-      console.log("Got from database: " + pixelData.x + "," + pixelData.y + "," + pixelData.h)
+      //console.log("Got from database: " + pixelData.x + "," + pixelData.y + "," + pixelData.h)
+      noSmooth()
       fill(pixelData.h)
       noStroke()
       rect(pixelData.x, pixelData.y, 1, 1)
