@@ -42,9 +42,9 @@ window.database.readpixels = function() {
     pixels.forEach(function(pixel) {
       var pixelData = pixel.val();
       //console.log("Got from database: " + pixelData.x + "," + pixelData.y + "," + pixelData.h)
-      noSmooth()
       fill(pixelData.h)
       noStroke()
+      noSmooth();
       rect(pixelData.x, pixelData.y, 1, 1)
     }
     );}

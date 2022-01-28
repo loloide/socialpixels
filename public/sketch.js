@@ -5,10 +5,9 @@ var zoomed = false
 socket = io.connect("https://socialpixels.herokuapp.com/")
 //setup
 function setup() {
-  noSmooth()
 
   database.readpixels(); 
-  
+  noSmooth()
   var canvas = createCanvas(200, 200);
   canvas.parent("canvasDiv")
   background("#e4e4e4");
@@ -19,6 +18,7 @@ function setup() {
       // Draw recieved data
       fill(data.h);
       noStroke();
+      noSmooth();
       rect(data.x, data.y, 1, 1);
     }
   );
@@ -91,4 +91,5 @@ function savecanvas() {
 }
 
 //dev do a little trolling <3
-console.log("What are you looking at? There's nothing here")
+console.log("oh hi! i didn't spect you to come here, or did i?")
+console.log("there's a bug in p5.js that can't disable anti-aliasing ´~`")
