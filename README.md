@@ -18,7 +18,7 @@ edit with:
 yarn parcel ./public/index.html
 ```
 ## Deploy :>
-Deployed on heroku [here](https://socialpixels.herokuapp.com/).
+Deployed on render [here](https://socialpixels.onrender.com/).
 
 #
 I would really appreciate it if you shared this site with your friends and ask them to draw something!
