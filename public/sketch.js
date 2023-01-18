@@ -2,12 +2,12 @@ var database = window.database;
 var socket;
 var zoomed = false
 
-socket = io.connect("https://socialpixels.herokuapp.com/")
+socket = io.connect(window.location.href)
 //setup
 function setup() {
-
-  database.readpixels(); 
   noSmooth()
+  database.readpixels(); 
+  
   var canvas = createCanvas(200, 200);
   canvas.parent("canvasDiv")
   background("#e4e4e4");
